@@ -25,14 +25,20 @@ L2 regularization, which is sometimes referred to as Ridge regularization, is a 
 2.	Weather forecasting: When predicting temperature, L2 can balance the influence of various factors (humidity, wind speed, atmospheric pressure) without eliminating any.
 3.	Recommendation systems: In movie recommendation algorithms, L2 can manage the impact of multiple user preferences (genre, actors, release year) without discarding any particular aspect.
 
-**ADVANTAGES **
+**ADVANTAGES**
 1.	Stability: More stable, especially when dealing with correlated features
 2.	Smooth optimization: Differentiable everywhere, making it easier to optimize
 3.	Handling multicollinearity: Effective at managing highly correlated features
 4.	Computational efficiency: Generally faster to compute due to its mathematical properties
+
 **DISADVANTAGES:**
 1.	No feature selection: Keeps all features in the model, just reducing their impact
 2.	Less interpretable: Harder to determine feature importance as all coefficients remain non-zero
+3.	
 **ELASTIC NET REGRESSION**
 
 Elastic Net Regression is an advanced method in the field of linear regression that merges the strengths of two popular regularization techniques: Lasso and Ridge regression. This approach is particularly valuable when dealing with datasets where standard linear regression methods may face challenges, especially in situations involving high correlation among predictor variables. By combining the penalty terms from both Lasso and Ridge regression, Elastic Net creates a balanced approach to model regularization. This unique characteristic makes it an effective tool for addressing multicollinearity, a common issue in many real-world datasets where independent variables are closely related.
+
+![image](https://github.com/user-attachments/assets/c525f182-a273-42c6-a1e5-5897d4c879e8)
+
+
