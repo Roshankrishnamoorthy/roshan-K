@@ -1,7 +1,7 @@
 **GROUP members**
-Roshan Krishnamoorthy(A20592056)
-Nisha Mayilraj(A20592055)
-Nithishkannan Kuppal Thulasiraman(A20593857)
+1)Roshan Krishnamoorthy(A20592056)
+2)Nisha Mayilraj(A20592055)
+3)Nithishkannan Kuppal Thulasiraman(A20593857)
 
 
 Machine learning techniques like L1 regularization, sometimes referred to as Lasso regularization, are used to stop overfitting. It functions by adjusting the loss function of the model by a penalty term that is determined by the absolute values of the model's coefficients.
